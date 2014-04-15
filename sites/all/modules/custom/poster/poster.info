@@ -1,7 +1,7 @@
 name = Poster
 description = Poster content type with theming taxonomy etc
 core = 7.x
-package = Features
+package = Signage
 version = 7.x-1.0
 project = poster
 dependencies[] = features
