@@ -72,6 +72,10 @@ function bartik_process_page(&$variables) {
     $variables['title_suffix']['add_or_remove_shortcut']['#weight'] = -100;
   }
 
+  // dpm($variables);
+  if (!user_is_logged_in()) {
+    $variables['page']['sidebar_first'] = array();
+  }
 }
 
 /**
