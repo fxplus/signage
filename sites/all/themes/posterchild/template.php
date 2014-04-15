@@ -67,16 +67,21 @@ function posterchild_preprocess_block(&$vars, $hook) {
 
 }
 */
-/*
-function posterchild_preprocess_node(&$vars,$hook) {
-  //  kpr($vars['content']);
 
-  // add a nodeblock 
-  // in .info define a region : regions[block_in_a_node] = block_in_a_node 
-  // in node.tpl  <?php if($noderegion){ ?> <?php print render($noderegion); ?><?php } ?>
-  //$vars['block_in_a_node'] = block_get_blocks_by_region('block_in_a_node');
+function posterchild_preprocess_node(&$vars,$hook) {
+  
+  // add classes to posters according to 'displaystyle' taxonomy term
+  if (count($vars['field_displaystyle'])) {
+    foreach ($vars['field_displaystyle']['und'] as $style) {
+      $display_style = taxonomy_term_load($style['tid']);
+      $style_name = 'poster-'.str_replace( ' ', '-', strtolower($display_style->name));
+      $display_styles[] = $style_name;//'poster-'.$style['taxonomy_term']->field_css_class['und'][0]['value'];
+      //dpm($style);
+    }
+    $vars['classes_array'] = array_merge($vars['classes_array'], $display_styles);
+  }
 }
-*/
+
 /*
 function posterchild_preprocess_comment(&$vars,$hook) {
   //  kpr($vars['content']);

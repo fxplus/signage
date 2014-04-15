@@ -1,62 +1,34 @@
-@font-face {
-  font-family: 'Roboto';
-  src: url('../fonts/roboto/Roboto-Regular.ttf');
-}
-@font-face {
-  font-family: 'stag-medium';
-  src: url('../fonts/stag/Stag-Medium.otf');
-}
-@font-face {
-  font-family: 'stag';
-  src: url('../fonts/stag/Stag-Book.otf');
-}
-@font-face {
-  font-family: 'stag-light';
-  src: url('../fonts/stag/Stag-Light.otf');
-}
-
-html, body {
-  font-family: Verdana;
-  background-color: #005058;
-  background-color: #91dff6;
+html, body, #main-content, div.page, .page .node-poster {
   width: 1920px;
   height: 1080px;
-  overflow: hidden;
-  background-image: url("../images/SSS.png");
+  /* overflow: hidden; */
   margin:0;
   padding:0;
 }
+
+html, body, #main-content, div.page{
+  background-color: #005058;
+  background-color: #91dff6;
+  background-color: #eee;
+}
+
 .page {
   margin:0;
   padding:30px;
   border-width: 0;
   background-color: transparent;
 }
-.page .node-poster{
-  max-height: 900px;
-  overflow: hidden;
-}
+
 #main-content {
-  margin: 0;
-  padding: 20px;
   background-color: transparent;
 }
-body,  .page p, .page a, .page a:visited, .page, .field-type-text-with-summary {
-  font-family: roboto;
-  font-size: 48pt;
-  line-height: 1.5em;
-  color: #005058;
-}
-h1, h2 {
-  font-family: stag;
-  font-size: 72pt;
-  letter-spacing:5px;
-  color: #005058;
-}
-.node-photo h2 {
-  display:none;
-}
+
 .node-photo img {
   width: 1920px;
   height: 1080px;
+}
+
+.messages {
+  font-size: 12pt;
+  line-height: 1.5em;
 }

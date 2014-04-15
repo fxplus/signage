@@ -1,0 +1,15 @@
+article.node-poster  {
+  background-image: url("../images/SSS_waves.png");
+  margin-top: 0;
+  display:block;
+}
+
+article.node-poster div.container {
+  padding:60px;
+  
+}
+
+.poster-dark {
+  rgbt(0,0,0,0.5);
+}
+

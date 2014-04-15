@@ -20,7 +20,7 @@ ul.inline li.node-readmore {
   color: red;
 }
 #sidebar-second {
-  position: fixed;
+  /* position: fixed; */
 }
 
 body {

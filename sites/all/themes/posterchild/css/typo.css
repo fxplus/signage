@@ -1,0 +1,37 @@
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/roboto/Roboto-Regular.ttf');
+}
+@font-face {
+  font-family: 'stag-medium';
+  src: url('../fonts/stag/Stag-Medium.otf');
+}
+@font-face {
+  font-family: 'stag';
+  src: url('../fonts/stag/Stag-Book.otf');
+}
+@font-face {
+  font-family: 'stag-light';
+  src: url('../fonts/stag/Stag-Light.otf');
+}
+
+html, body, #main-content, div.page{
+  font-family: Verdana;
+}
+
+body,  .page p, .page a, .page a:visited, .page, .field-type-text-with-summary {
+  font-family: roboto;
+  font-size: 48pt;
+  line-height: 1.5em;
+  color: #005058;
+}
+h1, h2 {
+  font-family: stag;
+  font-size: 72pt;
+  letter-spacing:5px;
+  color: #005058;
+  margin: 0;
+}
+.node-photo h2 {
+  display:none;
+}
