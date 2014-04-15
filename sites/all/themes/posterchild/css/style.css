@@ -41,7 +41,7 @@ html, body {
   padding: 20px;
   background-color: transparent;
 }
-.page p, .page a, .page a:visited {
+body,  .page p, .page a, .page a:visited, .page, .field-type-text-with-summary {
   font-family: roboto;
   font-size: 48pt;
   line-height: 1.5em;

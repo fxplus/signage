@@ -11,8 +11,16 @@ ul.inline li.node-readmore {
 .grippie {
   display:none;
 }
+#field-information-add-more-wrapper legend {
+  margin-top: 20px;
+  opacity: 0.4;
+  display:none;
+}
 #edit-body-und-0-value-counter strong{
   color: red;
+}
+#sidebar-second {
+  position: fixed;
 }
 
 body {

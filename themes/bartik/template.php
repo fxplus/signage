@@ -71,11 +71,11 @@ function bartik_process_page(&$variables) {
     // Make sure the shortcut link is the first item in title_suffix.
     $variables['title_suffix']['add_or_remove_shortcut']['#weight'] = -100;
   }
-  /* TR edit */
-  if (arg(0) == 'node' && $variables['tabs']['#primary'][2]['#link']['path'] == 'node/%/nodequeue') {
-    $variables['tabs']['#primary'][2]['#link']['title'] = 'Screens';
-  }
 
+  // dpm($variables);
+  if (!user_is_logged_in()) {
+    $variables['page']['sidebar_first'] = array();
+  }
 }
 
 /**

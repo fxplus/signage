@@ -63,7 +63,7 @@ function nodequeue_menu() {
 
   // administrative items
   $items['admin/structure/nodequeue'] = array(
-    'title' => 'Nodequeues',
+    'title' => t('Nodequeues'),
     'page callback' => 'nodequeue_view_queues',
     'access callback' => '_nodequeue_access_admin_or_manipulate',
     'description' => 'Create and maintain simple nodequeues.',

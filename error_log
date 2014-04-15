@@ -1,0 +1,28 @@
+[25-Mar-2014 13:51:54 UTC] PHP Fatal error:  Cannot use string offset as an array in /home/fxplus/public_html/signage/themes/bartik/template.php on line 75
+[25-Mar-2014 13:52:38 UTC] PHP Fatal error:  Cannot use string offset as an array in /home/fxplus/public_html/signage/themes/bartik/template.php on line 75
+[25-Mar-2014 13:52:39 UTC] PHP Fatal error:  Cannot use string offset as an array in /home/fxplus/public_html/signage/themes/bartik/template.php on line 75
+[25-Mar-2014 13:54:01 UTC] PHP Fatal error:  Cannot use string offset as an array in /home/fxplus/public_html/signage/themes/bartik/template.php on line 75
+[25-Mar-2014 13:54:17 UTC] PHP Fatal error:  Cannot use string offset as an array in /home/fxplus/public_html/signage/themes/bartik/template.php on line 75
+[25-Mar-2014 13:54:47 UTC] PHP Fatal error:  Cannot use string offset as an array in /home/fxplus/public_html/signage/themes/bartik/template.php on line 75
+[25-Mar-2014 13:58:48 UTC] PHP Fatal error:  Cannot use string offset as an array in /home/fxplus/public_html/signage/themes/bartik/template.php on line 75
+[27-Mar-2014 15:31:16 UTC] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/fxplus/public_html/signage/sites/all/modules/devel/devel.module(1415) : eval()'d code on line 8
+[27-Mar-2014 15:31:51 UTC] PHP Fatal error:  Call to undefined function printr() in /home/fxplus/public_html/signage/sites/all/modules/devel/devel.module(1415) : eval()'d code on line 10
+[27-Mar-2014 16:29:57 UTC] PHP Fatal error:  Cannot access empty property in /home/fxplus/public_html/signage/sites/all/modules/nodequeue/includes/views/nodequeue_handler_field_links.inc on line 10
+[27-Mar-2014 16:30:16 UTC] PHP Fatal error:  Cannot access empty property in /home/fxplus/public_html/signage/sites/all/modules/nodequeue/includes/views/nodequeue_handler_field_links.inc on line 10
+[27-Mar-2014 16:30:20 UTC] PHP Fatal error:  Cannot access empty property in /home/fxplus/public_html/signage/sites/all/modules/nodequeue/includes/views/nodequeue_handler_field_links.inc on line 10
+[27-Mar-2014 16:30:30 UTC] PHP Fatal error:  Cannot access empty property in /home/fxplus/public_html/signage/sites/all/modules/nodequeue/includes/views/nodequeue_handler_field_links.inc on line 10
+[27-Mar-2014 16:30:46 UTC] PHP Fatal error:  Cannot access empty property in /home/fxplus/public_html/signage/sites/all/modules/nodequeue/includes/views/nodequeue_handler_field_links.inc on line 10
+[27-Mar-2014 16:30:54 UTC] PHP Fatal error:  Cannot access empty property in /home/fxplus/public_html/signage/sites/all/modules/nodequeue/includes/views/nodequeue_handler_field_links.inc on line 10
+[27-Mar-2014 16:31:02 UTC] PHP Fatal error:  Cannot access empty property in /home/fxplus/public_html/signage/sites/all/modules/nodequeue/includes/views/nodequeue_handler_field_links.inc on line 10
+[27-Mar-2014 16:31:06 UTC] PHP Fatal error:  Cannot access empty property in /home/fxplus/public_html/signage/sites/all/modules/nodequeue/includes/views/nodequeue_handler_field_links.inc on line 10
+[27-Mar-2014 16:31:19 UTC] PHP Fatal error:  Cannot access empty property in /home/fxplus/public_html/signage/sites/all/modules/nodequeue/includes/views/nodequeue_handler_field_links.inc on line 10
+[27-Mar-2014 16:31:33 UTC] PHP Fatal error:  Cannot access empty property in /home/fxplus/public_html/signage/sites/all/modules/nodequeue/includes/views/nodequeue_handler_field_links.inc on line 10
+[27-Mar-2014 16:32:15 UTC] PHP Fatal error:  Cannot access empty property in /home/fxplus/public_html/signage/sites/all/modules/nodequeue/includes/views/nodequeue_handler_field_queue_tab.inc on line 10
+[27-Mar-2014 16:32:21 UTC] PHP Fatal error:  Cannot access empty property in /home/fxplus/public_html/signage/sites/all/modules/nodequeue/includes/views/nodequeue_handler_field_queue_tab.inc on line 10
+[27-Mar-2014 16:32:28 UTC] PHP Fatal error:  Cannot access empty property in /home/fxplus/public_html/signage/sites/all/modules/nodequeue/includes/views/nodequeue_handler_field_queue_tab.inc on line 10
+[27-Mar-2014 16:32:39 UTC] PHP Fatal error:  Cannot access empty property in /home/fxplus/public_html/signage/sites/all/modules/nodequeue/includes/views/nodequeue_handler_field_queue_tab.inc on line 10
+[27-Mar-2014 16:32:52 UTC] PHP Fatal error:  Cannot access empty property in /home/fxplus/public_html/signage/sites/all/modules/nodequeue/includes/views/nodequeue_handler_field_queue_tab.inc on line 10
+[27-Mar-2014 16:32:57 UTC] PHP Fatal error:  Cannot access empty property in /home/fxplus/public_html/signage/sites/all/modules/nodequeue/includes/views/nodequeue_handler_field_queue_tab.inc on line 10
+[27-Mar-2014 16:33:33 UTC] PHP Fatal error:  Cannot access empty property in /home/fxplus/public_html/signage/sites/all/modules/nodequeue/includes/views/nodequeue_handler_field_links.inc on line 10
+[27-Mar-2014 16:33:39 UTC] PHP Fatal error:  Cannot access empty property in /home/fxplus/public_html/signage/sites/all/modules/nodequeue/includes/views/nodequeue_handler_field_links.inc on line 10
+[27-Mar-2014 16:33:47 UTC] PHP Fatal error:  Cannot access empty property in /home/fxplus/public_html/signage/sites/all/modules/nodequeue/includes/views/nodequeue_handler_field_links.inc on line 10
