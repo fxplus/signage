@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Poster feature.
+ */
+
+include_once 'poster.features.inc';
