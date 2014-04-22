@@ -1,15 +1,29 @@
-article.node-poster  {
+article.node  {
   background-image: url("../images/SSS_waves.png");
   margin-top: 0;
   display:block;
+  color: #005058;
 }
 
 article.node-poster div.container {
   padding:60px;
+  max-height: 920px;
   
 }
 
-.poster-dark {
-  rgbt(0,0,0,0.5);
+article.node.poster-dark {
+  background-image: url("../images/SSS_waves_dark.png");
+  color: #fefefe;
+  color: #91dff6;
 }
 
+article.node.poster-illustrated div.container {
+  background: url("../images/cloudhead.png") transparent no-repeat 1400px 280px;
+}
+
+article.node.poster-illustrated div.container h2 {
+  width: 1500px;
+}
+article.node.poster-illustrated div.container p {
+  width: 1300px;
+}

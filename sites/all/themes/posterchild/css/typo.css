@@ -15,21 +15,18 @@
   src: url('../fonts/stag/Stag-Light.otf');
 }
 
-html, body, #main-content, div.page{
-  font-family: Verdana;
-}
-
 body,  .page p, .page a, .page a:visited, .page, .field-type-text-with-summary {
   font-family: roboto;
-  font-size: 48pt;
+  font-size: 36pt;
   line-height: 1.5em;
-  color: #005058;
+  color:inherit;
 }
 h1, h2 {
   font-family: stag;
   font-size: 72pt;
   letter-spacing:5px;
-  color: #005058;
+  line-height: 1.5;
+  color: inherit;
   margin: 0;
 }
 .node-photo h2 {
