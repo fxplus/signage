@@ -20,14 +20,24 @@ body,  .page p, .page a, .page a:visited, .page, .field-type-text-with-summary {
   font-size: 36pt;
   line-height: 1.5em;
   color:inherit;
+  margin-top: 0;
 }
-h1, h2 {
+h1, h2, h3, h4 {
   font-family: stag;
   font-size: 72pt;
   letter-spacing:5px;
   line-height: 1.5;
   color: inherit;
   margin: 0;
+  margin-bottom: .5em;
+}
+
+h3 {
+  font-size: 48pt;  
+  line-height: 2.4;
+  letter-spacing:3px;
+    margin-bottom: 0;
+
 }
 .node-photo h2 {
   display:none;

@@ -4,6 +4,12 @@ article.node  {
   display:block;
   color: #005058;
 }
+article.node ul li {
+list-style: disc;
+}
+article.node.poster-centre ul li {
+list-style: none;
+}
 
 article.node-poster div.container {
   padding:60px;
@@ -16,6 +22,9 @@ article.node.poster-dark {
   color: #fefefe;
   color: #91dff6;
 }
+article.node.poster-dark strong {
+  color: #D0EBF2;
+}
 
 article.node.poster-illustrated div.container {
   background: url("../images/cloudhead.png") transparent no-repeat 1400px 280px;
@@ -27,3 +36,15 @@ article.node.poster-illustrated div.container h2 {
 article.node.poster-illustrated div.container p {
   width: 1300px;
 }
+article.node.poster-centre {
+  text-align: center;
+}
+
+.views-slideshow-controls-top,
+.views-slideshow-controls-top a,
+ul.links.inline {
+  font-size: 10pt;
+  line-height: 12pt;
+  text-align: right;
+}
+
