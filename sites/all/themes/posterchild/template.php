@@ -80,6 +80,14 @@ function posterchild_preprocess_node(&$vars,$hook) {
     }
     $vars['classes_array'] = array_merge($vars['classes_array'], $display_styles);
   }
+  if (count($vars['field_illustration'])) {
+    foreach ($vars['field_illustration']['und'] as $ill) {
+      $illustration = taxonomy_term_load($ill['tid']);
+      $ill_name = 'ill-'.str_replace( ' ', '-', strtolower($illustration->name));
+      $illustrations[] = $ill_name;
+    }
+    $vars['classes_array'] = array_merge($vars['classes_array'], $illustrations);
+  }
 }
 
 /*

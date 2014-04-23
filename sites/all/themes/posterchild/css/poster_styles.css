@@ -13,21 +13,19 @@ list-style: none;
 
 article.node-poster div.container {
   padding:60px;
-  max-height: 920px;
-  
+  width: 100%;
+  height: 100%;
+
 }
 
 article.node.poster-dark {
   background-image: url("../images/SSS_waves_dark.png");
+  background-image: url("../images/SSS_waves_darker.png");
   color: #fefefe;
   color: #91dff6;
 }
 article.node.poster-dark strong {
   color: #D0EBF2;
-}
-
-article.node.poster-illustrated div.container {
-  background: url("../images/cloudhead.png") transparent no-repeat 1400px 280px;
 }
 
 article.node.poster-illustrated div.container h2 {
@@ -48,3 +46,31 @@ ul.links.inline {
   text-align: right;
 }
 
+/* Illustrations */
+article.node.ill-cloudhead div.container {
+  background: url("../images/illustrations/cloudhead.png") transparent no-repeat 1400px 280px;
+}
+article.node.ill-openbook div.container {
+  background: url("../images/illustrations/openbook.png") transparent no-repeat 1300px 400px;
+}
+article.node.ill-closedbook div.container {
+  background: url("../images/illustrations/closedbook.png") transparent no-repeat 1500px 430px;
+}
+article.node.ill-mobile div.container {
+  background: url("../images/illustrations/mobile.png") transparent no-repeat 1500px 250px;
+}
+article.node.ill-disk div.container {
+  background: url("../images/illustrations/disk.png") transparent no-repeat 1300px 400px;
+}
+article.node.ill-bird div.container {
+  background: url("../images/illustrations/bird.png") transparent no-repeat 1300px 400px;
+}
+article.node.ill-clock div.container {
+  background: url("../images/illustrations/clock.png") transparent no-repeat 1300px 400px;
+}
+article.node.ill-search div.container {
+  background: url("../images/illustrations/search.png") transparent no-repeat 1300px 400px;
+}
+article.node.ill-bookshelf div.container {
+  background: url("../images/illustrations/bookshelf.png") transparent no-repeat 1300px 400px;
+}
